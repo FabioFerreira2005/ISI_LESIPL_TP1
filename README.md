@@ -20,13 +20,18 @@ Para testar e visualizar o dashboard e o mapa interativo, o projeto recorre a co
 ### Passos para Execução
 
 1. Abrir o terminal na pasta raiz deste projeto.
-2. Executar o comando para iniciar o contentor em segundo plano:
+2. Executar o comando para iniciar o contentor Node-RED:
 
    docker compose up -d
+
+3. No Node-RED, importar flows.json da pasta src/ para ter o fluxo completo
 
 ### Tecnologias Utilizadas
 
 KNIME Analytics Platform - Processamento ETL, transformação de dados, e regras iniciais.
+
+## Aviso do KNIME: Reconheço que não encontrei nenhuma forma de criar um caminho relativo para os ficheiros de input.
+##                 por favor ver isso nos CSV e XML readers
 
 MongoDB Atlas Cluster - Base de dados NoSQL na nuvem para persistência dos alojamentos e freguesias.
 
@@ -44,6 +49,7 @@ tp01a29365/
 ├── dataintegration/          > Ficheiro com as transformações, metanodes e jobs desenvolvidos no KNIME
 ├── doc/                      > Relatório final do projeto em formato PDF
 ├── nodered_data/             > Volume persistente para salvaguarda dos fluxos e configurações do Node-RED
+├── src/                      > Contém flows.json, para correr no Node-RED
 
 ### Link do video de demonstração
 
