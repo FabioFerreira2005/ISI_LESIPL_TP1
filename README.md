@@ -19,8 +19,8 @@ Para testar e visualizar o dashboard e o mapa interativo, o projeto recorre a co
 
 ### Passos para Execução
 
-1. Abrir o terminal na pasta raiz deste projeto[cite: 26].
-2. Executar o comando para iniciar o contentor em segundo plano[cite: 26]:
+1. Abrir o terminal na pasta raiz deste projeto.
+2. Executar o comando para iniciar o contentor em segundo plano:
 
    docker compose up -d
 
