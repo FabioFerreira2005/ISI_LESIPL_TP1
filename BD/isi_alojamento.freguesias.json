@@ -1,0 +1,600 @@
+[{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee6f1"
+  },
+  "nome_corrigido": "Mafamude",
+  "Entire home/apt+Mean(preco_noite)": 123.22832369942195,
+  "Private room+Mean(preco_noite)": 52.83734939759036,
+  "Shared room+Mean(preco_noite)": 21.75,
+  "Hotel room+Mean(preco_noite)": 0,
+  "concelho": "Vila Nova de Gaia",
+  "Mean(preco_noite)": 99.19615384615389,
+  "Mean(review_scores_rating)": 4.678346153846155,
+  "Count*(id)": 260,
+  "Mean(latitude)": 41.12194895624196,
+  "Mean(longitude)": -8.606955457069619,
+  "temp_c": 14.43,
+  "clima_desc": "céu limpo",
+  "humidade": "81",
+  "classificacao_zona": "👍 Zona Tranquila"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee6f2"
+  },
+  "nome_corrigido": "Paranhos",
+  "Entire home/apt+Mean(preco_noite)": 127.77911646586348,
+  "Private room+Mean(preco_noite)": 61.17605633802821,
+  "Shared room+Mean(preco_noite)": 29,
+  "Hotel room+Mean(preco_noite)": 0,
+  "concelho": "Porto",
+  "Mean(preco_noite)": 103.40051020408166,
+  "Mean(review_scores_rating)": 4.654336734693884,
+  "Count*(id)": 392,
+  "Mean(latitude)": 41.17059118843926,
+  "Mean(longitude)": -8.60718198397408,
+  "temp_c": 14.52,
+  "clima_desc": "céu limpo",
+  "humidade": "81",
+  "classificacao_zona": "👍 Zona Tranquila"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee6f3"
+  },
+  "nome_corrigido": "Vila do Conde",
+  "Entire home/apt+Mean(preco_noite)": 133.1818181818182,
+  "Private room+Mean(preco_noite)": 79.56140350877195,
+  "Shared room+Mean(preco_noite)": 42.916666666666664,
+  "Hotel room+Mean(preco_noite)": 74,
+  "concelho": "Vila do Conde",
+  "Mean(preco_noite)": 109.07608695652178,
+  "Mean(review_scores_rating)": 4.76201086956522,
+  "Count*(id)": 184,
+  "Mean(latitude)": 41.35584066213749,
+  "Mean(longitude)": -8.7493875020596,
+  "temp_c": 15.27,
+  "clima_desc": "céu limpo",
+  "humidade": "81",
+  "classificacao_zona": "⭐ Escolha Ideal"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee6f4"
+  },
+  "nome_corrigido": "Penha de França",
+  "Entire home/apt+Mean(preco_noite)": 134.329073482428,
+  "Private room+Mean(preco_noite)": 66.48076923076925,
+  "Shared room+Mean(preco_noite)": 0,
+  "Hotel room+Mean(preco_noite)": 0,
+  "concelho": "Lisboa",
+  "Mean(preco_noite)": 111.76119402985073,
+  "Mean(review_scores_rating)": 4.592281449893392,
+  "Count*(id)": 469,
+  "Mean(latitude)": 38.72869507984174,
+  "Mean(longitude)": -9.128294191140096,
+  "temp_c": 14.9,
+  "clima_desc": "céu limpo",
+  "humidade": "65",
+  "classificacao_zona": "👍 Zona Tranquila"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee6f5"
+  },
+  "nome_corrigido": "Areeiro",
+  "Entire home/apt+Mean(preco_noite)": 172.46610169491532,
+  "Private room+Mean(preco_noite)": 70.10156249999994,
+  "Shared room+Mean(preco_noite)": 21.714285714285715,
+  "Hotel room+Mean(preco_noite)": 236,
+  "concelho": "Lisboa",
+  "Mean(preco_noite)": 117.443137254902,
+  "Mean(review_scores_rating)": 4.61270588235294,
+  "Count*(id)": 255,
+  "Mean(latitude)": 38.7408049617631,
+  "Mean(longitude)": -9.135464923437652,
+  "temp_c": 14.92,
+  "clima_desc": "céu limpo",
+  "humidade": "65",
+  "classificacao_zona": "👍 Zona Tranquila"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee6f6"
+  },
+  "nome_corrigido": "Póvoa de Varzim",
+  "Entire home/apt+Mean(preco_noite)": 125.58000000000006,
+  "Private room+Mean(preco_noite)": 64.63636363636364,
+  "Shared room+Mean(preco_noite)": 0,
+  "Hotel room+Mean(preco_noite)": 0,
+  "concelho": "Póvoa de Varzim",
+  "Mean(preco_noite)": 117.78488372093025,
+  "Mean(review_scores_rating)": 4.772267441860466,
+  "Count*(id)": 172,
+  "Mean(latitude)": 41.38287178739991,
+  "Mean(longitude)": -8.763848706525085,
+  "temp_c": 15.26,
+  "clima_desc": "céu limpo",
+  "humidade": "81",
+  "classificacao_zona": "⭐ Escolha Ideal"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee6f7"
+  },
+  "nome_corrigido": "Campanhã",
+  "Entire home/apt+Mean(preco_noite)": 124.77999999999999,
+  "Private room+Mean(preco_noite)": 66.40909090909092,
+  "Shared room+Mean(preco_noite)": 0,
+  "Hotel room+Mean(preco_noite)": 85,
+  "concelho": "Porto",
+  "Mean(preco_noite)": 118.8430493273543,
+  "Mean(review_scores_rating)": 4.674798206278023,
+  "Count*(id)": 223,
+  "Mean(latitude)": 41.1543025945234,
+  "Mean(longitude)": -8.58428259981274,
+  "temp_c": 14.92,
+  "clima_desc": "céu limpo",
+  "humidade": "81",
+  "classificacao_zona": "👍 Zona Tranquila"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee6f8"
+  },
+  "nome_corrigido": "Ramalde",
+  "Entire home/apt+Mean(preco_noite)": 132.73195876288662,
+  "Private room+Mean(preco_noite)": 80.1923076923077,
+  "Shared room+Mean(preco_noite)": 0,
+  "Hotel room+Mean(preco_noite)": 0,
+  "concelho": "Porto",
+  "Mean(preco_noite)": 121.62601626016257,
+  "Mean(review_scores_rating)": 4.668617886178861,
+  "Count*(id)": 123,
+  "Mean(latitude)": 41.16570266832768,
+  "Mean(longitude)": -8.63968895480914,
+  "temp_c": 14.9,
+  "clima_desc": "céu limpo",
+  "humidade": "81",
+  "classificacao_zona": "👍 Zona Tranquila"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee6f9"
+  },
+  "nome_corrigido": "Bonfim",
+  "Entire home/apt+Mean(preco_noite)": 129.4792387543247,
+  "Private room+Mean(preco_noite)": 74.36551724137927,
+  "Shared room+Mean(preco_noite)": 33.666666666666664,
+  "Hotel room+Mean(preco_noite)": 105,
+  "concelho": "Porto",
+  "Mean(preco_noite)": 122.91131498470939,
+  "Mean(review_scores_rating)": 4.657614678899085,
+  "Count*(id)": 1308,
+  "Mean(latitude)": 41.15035607397159,
+  "Mean(longitude)": -8.598507545598496,
+  "temp_c": 14.66,
+  "clima_desc": "céu limpo",
+  "humidade": "81",
+  "classificacao_zona": "👍 Zona Tranquila"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee6fa"
+  },
+  "nome_corrigido": "Alcântara",
+  "Entire home/apt+Mean(preco_noite)": 137.415300546448,
+  "Private room+Mean(preco_noite)": 74.73913043478264,
+  "Shared room+Mean(preco_noite)": 21,
+  "Hotel room+Mean(preco_noite)": 0,
+  "concelho": "Lisboa",
+  "Mean(preco_noite)": 123.04291845493553,
+  "Mean(review_scores_rating)": 4.612746781115881,
+  "Count*(id)": 233,
+  "Mean(latitude)": 38.70430500538613,
+  "Mean(longitude)": -9.181644680241758,
+  "temp_c": 15.3,
+  "clima_desc": "céu limpo",
+  "humidade": "66",
+  "classificacao_zona": "👍 Zona Tranquila"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee6fb"
+  },
+  "nome_corrigido": "Matosinhos Centro",
+  "Entire home/apt+Mean(preco_noite)": 139.69000000000005,
+  "Private room+Mean(preco_noite)": 69.20238095238095,
+  "Shared room+Mean(preco_noite)": 26,
+  "Hotel room+Mean(preco_noite)": 106.25,
+  "concelho": "Matosinhos",
+  "Mean(preco_noite)": 123.58205128205134,
+  "Mean(review_scores_rating)": 4.741512820512822,
+  "Count*(id)": 390,
+  "Mean(latitude)": 41.18349967506456,
+  "Mean(longitude)": -8.690595444099579,
+  "temp_c": 15.26,
+  "clima_desc": "céu limpo",
+  "humidade": "81",
+  "classificacao_zona": "👍 Zona Tranquila"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee6fc"
+  },
+  "nome_corrigido": "Avenidas Novas",
+  "Entire home/apt+Mean(preco_noite)": 172.84507042253534,
+  "Private room+Mean(preco_noite)": 76.67796610169492,
+  "Shared room+Mean(preco_noite)": 26.75,
+  "Hotel room+Mean(preco_noite)": 100.54999999999998,
+  "concelho": "Lisboa",
+  "Mean(preco_noite)": 127.39338235294116,
+  "Mean(review_scores_rating)": 4.574705882352945,
+  "Count*(id)": 544,
+  "Mean(latitude)": 38.73606913692176,
+  "Mean(longitude)": -9.149760921707294,
+  "temp_c": 14.93,
+  "clima_desc": "céu limpo",
+  "humidade": "66",
+  "classificacao_zona": "👍 Zona Tranquila"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee6fd"
+  },
+  "nome_corrigido": "Centro Histórico",
+  "Entire home/apt+Mean(preco_noite)": 139.47374504623536,
+  "Private room+Mean(preco_noite)": 87.69009009009005,
+  "Shared room+Mean(preco_noite)": 28.348837209302324,
+  "Hotel room+Mean(preco_noite)": 179.57142857142858,
+  "concelho": "Porto",
+  "Mean(preco_noite)": 134.5311937612476,
+  "Mean(review_scores_rating)": 4.72127324535093,
+  "Count*(id)": 6668,
+  "Mean(latitude)": 41.14931989610287,
+  "Mean(longitude)": -8.61215466036285,
+  "temp_c": 14.73,
+  "clima_desc": "céu limpo",
+  "humidade": "81",
+  "classificacao_zona": "👍 Zona Tranquila"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee6fe"
+  },
+  "nome_corrigido": "Arroios",
+  "Entire home/apt+Mean(preco_noite)": 173.44852191641175,
+  "Private room+Mean(preco_noite)": 83.21613394216119,
+  "Shared room+Mean(preco_noite)": 31.235294117647058,
+  "Hotel room+Mean(preco_noite)": 79,
+  "concelho": "Lisboa",
+  "Mean(preco_noite)": 136.1328502415458,
+  "Mean(review_scores_rating)": 4.600452898550719,
+  "Count*(id)": 1656,
+  "Mean(latitude)": 38.72583377063439,
+  "Mean(longitude)": -9.136485306586028,
+  "temp_c": 15.1,
+  "clima_desc": "céu limpo",
+  "humidade": "66",
+  "classificacao_zona": "👍 Zona Tranquila"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee6ff"
+  },
+  "nome_corrigido": "Campo de Ourique",
+  "Entire home/apt+Mean(preco_noite)": 150.41218637992833,
+  "Private room+Mean(preco_noite)": 73.21739130434781,
+  "Shared room+Mean(preco_noite)": 0,
+  "Hotel room+Mean(preco_noite)": 0,
+  "concelho": "Lisboa",
+  "Mean(preco_noite)": 139.48615384615385,
+  "Mean(review_scores_rating)": 4.670338461538465,
+  "Count*(id)": 325,
+  "Mean(latitude)": 38.7184241282856,
+  "Mean(longitude)": -9.163040483402124,
+  "temp_c": 14.82,
+  "clima_desc": "céu limpo",
+  "humidade": "66",
+  "classificacao_zona": "👍 Zona Tranquila"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee700"
+  },
+  "nome_corrigido": "Lordelo do Ouro",
+  "Entire home/apt+Mean(preco_noite)": 148.4030612244898,
+  "Private room+Mean(preco_noite)": 102.6666666666667,
+  "Shared room+Mean(preco_noite)": 16,
+  "Hotel room+Mean(preco_noite)": 0,
+  "concelho": "Porto",
+  "Mean(preco_noite)": 139.83750000000006,
+  "Mean(review_scores_rating)": 4.70429166666667,
+  "Count*(id)": 480,
+  "Mean(latitude)": 41.15222801530402,
+  "Mean(longitude)": -8.633593226262601,
+  "temp_c": 14.83,
+  "clima_desc": "céu limpo",
+  "humidade": "81",
+  "classificacao_zona": "👍 Zona Tranquila"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee701"
+  },
+  "nome_corrigido": "Santa Marinha",
+  "Entire home/apt+Mean(preco_noite)": 151.70508982035932,
+  "Private room+Mean(preco_noite)": 78.26923076923075,
+  "Shared room+Mean(preco_noite)": 0,
+  "Hotel room+Mean(preco_noite)": 87.5,
+  "concelho": "Vila Nova de Gaia",
+  "Mean(preco_noite)": 146.31969486823866,
+  "Mean(review_scores_rating)": 4.748280166435507,
+  "Count*(id)": 721,
+  "Mean(latitude)": 41.13588779565273,
+  "Mean(longitude)": -8.615806869223244,
+  "temp_c": 15.31,
+  "clima_desc": "céu limpo",
+  "humidade": "81",
+  "classificacao_zona": "👍 Zona Tranquila"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee702"
+  },
+  "nome_corrigido": "São Vicente",
+  "Entire home/apt+Mean(preco_noite)": 157.25293489861238,
+  "Private room+Mean(preco_noite)": 77.47500000000002,
+  "Shared room+Mean(preco_noite)": 0,
+  "Hotel room+Mean(preco_noite)": 0,
+  "concelho": "Lisboa",
+  "Mean(preco_noite)": 148.19583727530753,
+  "Mean(review_scores_rating)": 4.687899716177862,
+  "Count*(id)": 1057,
+  "Mean(latitude)": 38.717258243396834,
+  "Mean(longitude)": -9.127210274491887,
+  "temp_c": 14.97,
+  "clima_desc": "céu limpo",
+  "humidade": "65",
+  "classificacao_zona": "👍 Zona Tranquila"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee703"
+  },
+  "nome_corrigido": "Estrela",
+  "Entire home/apt+Mean(preco_noite)": 159.62195121951228,
+  "Private room+Mean(preco_noite)": 95.41346153846152,
+  "Shared room+Mean(preco_noite)": 23.5,
+  "Hotel room+Mean(preco_noite)": 0,
+  "concelho": "Lisboa",
+  "Mean(preco_noite)": 150.50131233595798,
+  "Mean(review_scores_rating)": 4.6439501312335985,
+  "Count*(id)": 762,
+  "Mean(latitude)": 38.70835727809317,
+  "Mean(longitude)": -9.160887868355713,
+  "temp_c": 15.03,
+  "clima_desc": "céu limpo",
+  "humidade": "66",
+  "classificacao_zona": "💎 Zona Premium"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee704"
+  },
+  "nome_corrigido": "Belém",
+  "Entire home/apt+Mean(preco_noite)": 163.4948979591837,
+  "Private room+Mean(preco_noite)": 133.30769230769232,
+  "Shared room+Mean(preco_noite)": 56,
+  "Hotel room+Mean(preco_noite)": 0,
+  "concelho": "Lisboa",
+  "Mean(preco_noite)": 158.11946902654864,
+  "Mean(review_scores_rating)": 4.681592920353982,
+  "Count*(id)": 226,
+  "Mean(latitude)": 38.69883164130212,
+  "Mean(longitude)": -9.206135160349062,
+  "temp_c": 15.45,
+  "clima_desc": "céu limpo",
+  "humidade": "69",
+  "classificacao_zona": "💎 Zona Premium"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee705"
+  },
+  "nome_corrigido": "Parque das Nações",
+  "Entire home/apt+Mean(preco_noite)": 167.40639269406395,
+  "Private room+Mean(preco_noite)": 77.81818181818183,
+  "Shared room+Mean(preco_noite)": 0,
+  "Hotel room+Mean(preco_noite)": 0,
+  "concelho": "Lisboa",
+  "Mean(preco_noite)": 159.228215767635,
+  "Mean(review_scores_rating)": 4.688215767634852,
+  "Count*(id)": 241,
+  "Mean(latitude)": 38.769024265952325,
+  "Mean(longitude)": -9.097526710623983,
+  "temp_c": 15.45,
+  "clima_desc": "céu limpo",
+  "humidade": "65",
+  "classificacao_zona": "💎 Zona Premium"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee706"
+  },
+  "nome_corrigido": "Foz do Douro",
+  "Entire home/apt+Mean(preco_noite)": 178.38121546961324,
+  "Private room+Mean(preco_noite)": 86.06666666666666,
+  "Shared room+Mean(preco_noite)": 0,
+  "Hotel room+Mean(preco_noite)": 0,
+  "concelho": "Porto",
+  "Mean(preco_noite)": 159.99999999999994,
+  "Mean(review_scores_rating)": 4.744823008849559,
+  "Count*(id)": 226,
+  "Mean(latitude)": 41.1555847178495,
+  "Mean(longitude)": -8.672252501363863,
+  "temp_c": 15.1,
+  "clima_desc": "céu limpo",
+  "humidade": "81",
+  "classificacao_zona": "💎 Zona Premium"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee707"
+  },
+  "nome_corrigido": "Ericeira",
+  "Entire home/apt+Mean(preco_noite)": 173.48080808080812,
+  "Private room+Mean(preco_noite)": 101.53846153846155,
+  "Shared room+Mean(preco_noite)": 57.75,
+  "Hotel room+Mean(preco_noite)": 302,
+  "concelho": "Mafra",
+  "Mean(preco_noite)": 161.0066006600659,
+  "Mean(review_scores_rating)": 4.794570957095709,
+  "Count*(id)": 606,
+  "Mean(latitude)": 38.967319208751654,
+  "Mean(longitude)": -9.413628882200891,
+  "temp_c": 14.53,
+  "clima_desc": "céu pouco nublado",
+  "humidade": "72",
+  "classificacao_zona": "💎 Zona Premium"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee708"
+  },
+  "nome_corrigido": "Santo António",
+  "Entire home/apt+Mean(preco_noite)": 185.23199152542355,
+  "Private room+Mean(preco_noite)": 93.59090909090911,
+  "Shared room+Mean(preco_noite)": 28.625,
+  "Hotel room+Mean(preco_noite)": 210.7777777777778,
+  "concelho": "Lisboa",
+  "Mean(preco_noite)": 167.29466553767998,
+  "Mean(review_scores_rating)": 4.677138018628285,
+  "Count*(id)": 1181,
+  "Mean(latitude)": 38.72105589324423,
+  "Mean(longitude)": -9.146838097320412,
+  "temp_c": 15.19,
+  "clima_desc": "céu limpo",
+  "humidade": "66",
+  "classificacao_zona": "💎 Zona Premium"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee709"
+  },
+  "nome_corrigido": "Misericórdia",
+  "Entire home/apt+Mean(preco_noite)": 186.732754215636,
+  "Private room+Mean(preco_noite)": 88.01857585139315,
+  "Shared room+Mean(preco_noite)": 43.5,
+  "Hotel room+Mean(preco_noite)": 280.66666666666663,
+  "concelho": "Lisboa",
+  "Mean(preco_noite)": 172.91826923076914,
+  "Mean(review_scores_rating)": 4.680441433566426,
+  "Count*(id)": 2288,
+  "Mean(latitude)": 38.7110049599589,
+  "Mean(longitude)": -9.147409946408843,
+  "temp_c": 15.04,
+  "clima_desc": "céu limpo",
+  "humidade": "66",
+  "classificacao_zona": "💎 Zona Premium"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee70a"
+  },
+  "nome_corrigido": "Sintra (Centro)",
+  "Entire home/apt+Mean(preco_noite)": 215.34159779614328,
+  "Private room+Mean(preco_noite)": 97.4551282051282,
+  "Shared room+Mean(preco_noite)": 24,
+  "Hotel room+Mean(preco_noite)": 159.5,
+  "concelho": "Sintra",
+  "Mean(preco_noite)": 179.1541353383458,
+  "Mean(review_scores_rating)": 4.713439849624061,
+  "Count*(id)": 532,
+  "Mean(latitude)": 38.79925047392604,
+  "Mean(longitude)": -9.389221758458143,
+  "temp_c": 14.4,
+  "clima_desc": "céu pouco nublado",
+  "humidade": "76",
+  "classificacao_zona": "💎 Zona Premium"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee70b"
+  },
+  "nome_corrigido": "Santa Maria Maior",
+  "Entire home/apt+Mean(preco_noite)": 192.68496591316816,
+  "Private room+Mean(preco_noite)": 98.06862745098036,
+  "Shared room+Mean(preco_noite)": 35.35714285714286,
+  "Hotel room+Mean(preco_noite)": 144.66666666666669,
+  "concelho": "Lisboa",
+  "Mean(preco_noite)": 182.43871999999973,
+  "Mean(review_scores_rating)": 4.666140799999987,
+  "Count*(id)": 3125,
+  "Mean(latitude)": 38.71254407356891,
+  "Mean(longitude)": -9.134212430874872,
+  "temp_c": 15.03,
+  "clima_desc": "céu limpo",
+  "humidade": "66",
+  "classificacao_zona": "💎 Zona Premium"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee70c"
+  },
+  "nome_corrigido": "Cascais e Estoril",
+  "Entire home/apt+Mean(preco_noite)": 221.40730337078662,
+  "Private room+Mean(preco_noite)": 102.30530973451326,
+  "Shared room+Mean(preco_noite)": 27.75,
+  "Hotel room+Mean(preco_noite)": 72.85714285714286,
+  "concelho": "Cascais",
+  "Mean(preco_noite)": 197.82687927107082,
+  "Mean(review_scores_rating)": 4.7359377372817,
+  "Count*(id)": 1317,
+  "Mean(latitude)": 38.70406811716465,
+  "Mean(longitude)": -9.41723776493714,
+  "temp_c": 15.39,
+  "clima_desc": "céu limpo",
+  "humidade": "76",
+  "classificacao_zona": "💎 Zona Premium"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee70d"
+  },
+  "nome_corrigido": "Canidelo",
+  "Entire home/apt+Mean(preco_noite)": 204.54195804195797,
+  "Private room+Mean(preco_noite)": 116.75,
+  "Shared room+Mean(preco_noite)": 0,
+  "Hotel room+Mean(preco_noite)": 0,
+  "concelho": "Vila Nova de Gaia",
+  "Mean(preco_noite)": 202.15306122448985,
+  "Mean(review_scores_rating)": 4.786190476190475,
+  "Count*(id)": 147,
+  "Mean(latitude)": 41.126703841810304,
+  "Mean(longitude)": -8.658456886968333,
+  "temp_c": 15.14,
+  "clima_desc": "céu limpo",
+  "humidade": "81",
+  "classificacao_zona": "💎 Zona Premium"
+},
+{
+  "_id": {
+    "$oid": "6ad953708c0a4085d00ee70e"
+  },
+  "nome_corrigido": "Colares",
+  "Entire home/apt+Mean(preco_noite)": 279.8962264150946,
+  "Private room+Mean(preco_noite)": 110.61016949152543,
+  "Shared room+Mean(preco_noite)": 28,
+  "Hotel room+Mean(preco_noite)": 114,
+  "concelho": "Sintra",
+  "Mean(preco_noite)": 251.8499999999998,
+  "Mean(review_scores_rating)": 4.764526315789473,
+  "Count*(id)": 380,
+  "Mean(latitude)": 38.81281755642295,
+  "Mean(longitude)": -9.462020359210138,
+  "temp_c": 15.49,
+  "clima_desc": "céu pouco nublado",
+  "humidade": "77",
+  "classificacao_zona": "💎 Zona Premium"
+}]

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tabela_regras>
+    <registo>
+        <nome_csv>Santa Maria Maior</nome_csv>
+        <nome_corrigido>Santa Maria Maior</nome_corrigido>
+        <concelho>Lisboa</concelho>
+        <taxa_turistica>4.00</taxa_turistica>
+    </registo>
+    <registo>
+        <nome_csv>Misericrdia</nome_csv>
+        <nome_corrigido>Misericórdia</nome_corrigido>
+        <concelho>Lisboa</concelho>
+        <taxa_turistica>4.00</taxa_turistica>
+    </registo>
+    <registo>
+        <nome_csv>Arroios</nome_csv>
+        <nome_corrigido>Arroios</nome_corrigido>
+        <concelho>Lisboa</concelho>
+        <taxa_turistica>4.00</taxa_turistica>
+    </registo>
+    <registo>
+        <nome_csv>Cascais e Estoril</nome_csv>
+        <nome_corrigido>Cascais e Estoril</nome_corrigido>
+        <concelho>Cascais</concelho>
+        <taxa_turistica>2.00</taxa_turistica>
+    </registo>
+    <registo>
+        <nome_csv>Santo Antnio</nome_csv>
+        <nome_corrigido>Santo António</nome_corrigido>
+        <concelho>Lisboa</concelho>
+        <taxa_turistica>4.00</taxa_turistica>
+    </registo>
+    <registo>
+        <nome_csv>So Vicente</nome_csv>
+        <nome_corrigido>São Vicente</nome_corrigido>
+        <concelho>Lisboa</concelho>
+        <taxa_turistica>4.00</taxa_turistica>
+    </registo>
+    <registo>
+        <nome_csv>Estrela</nome_csv>
+        <nome_corrigido>Estrela</nome_corrigido>
+        <concelho>Lisboa</concelho>
+        <taxa_turistica>4.00</taxa_turistica>
+    </registo>
+    <registo>
+        <nome_csv>Avenidas Novas</nome_csv>
+        <nome_corrigido>Avenidas Novas</nome_corrigido>
+        <concelho>Lisboa</concelho>
+        <taxa_turistica>4.00</taxa_turistica>
+    </registo>
+    <registo>
+        <nome_csv>Ericeira</nome_csv>
+        <nome_corrigido>Ericeira</nome_corrigido>
+        <concelho>Mafra</concelho>
+        <taxa_turistica>2.00</taxa_turistica>
+    </registo>
+    <registo>
+        <nome_csv>S.Maria, S.Miguel, S.Martinho, S.Pedro Penaferrim</nome_csv>
+        <nome_corrigido>Sintra (Centro)</nome_corrigido>
+        <concelho>Sintra</concelho>
+        <taxa_turistica>2.00</taxa_turistica>
+    </registo>
+    <registo>
+        <nome_csv>Penha de Frana</nome_csv>
+        <nome_corrigido>Penha de França</nome_corrigido>
+        <concelho>Lisboa</concelho>
+        <taxa_turistica>4.00</taxa_turistica>
+    </registo>
+    <registo>
+        <nome_csv>Colares</nome_csv>
+        <nome_corrigido>Colares</nome_corrigido>
+        <concelho>Sintra</concelho>
+        <taxa_turistica>2.00</taxa_turistica>
+    </registo>
+    <registo>
+        <nome_csv>Areeiro</nome_csv>
+        <nome_corrigido>Areeiro</nome_corrigido>
+        <concelho>Lisboa</concelho>
+        <taxa_turistica>4.00</taxa_turistica>
+    </registo>
+    <registo>
+        <nome_csv>Campo de Ourique</nome_csv>
+        <nome_corrigido>Campo de Ourique</nome_corrigido>
+        <concelho>Lisboa</concelho>
+        <taxa_turistica>4.00</taxa_turistica>
+    </registo>
+    <registo>
+        <nome_csv>Belm</nome_csv>
+        <nome_corrigido>Belém</nome_corrigido>
+        <concelho>Lisboa</concelho>
+        <taxa_turistica>4.00</taxa_turistica>
+    </registo>
+    <registo>
+        <nome_csv>Parque das Naes</nome_csv>
+        <nome_corrigido>Parque das Nações</nome_corrigido>
+        <concelho>Lisboa</concelho>
+        <taxa_turistica>4.00</taxa_turistica>
+    </registo>
+    <registo>
+        <nome_csv>Alcntara</nome_csv>
+        <nome_corrigido>Alcântara</nome_corrigido>
+        <concelho>Lisboa</concelho>
+        <taxa_turistica>4.00</taxa_turistica>
+    </registo>
+</tabela_regras>

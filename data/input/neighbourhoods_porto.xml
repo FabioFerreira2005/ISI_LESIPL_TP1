@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<tabela_regras>
+    <registo>
+        <nome_csv>Cedofeita, Ildefonso, Sé, Miragaia, Nicolau, Vitória</nome_csv>
+        <nome_corrigido>Centro Histórico</nome_corrigido>
+        <concelho>Porto</concelho>
+        <taxa_turistica>3.00</taxa_turistica>
+    </registo>
+    <registo>
+        <nome_csv>Bonfim</nome_csv>
+        <nome_corrigido>Bonfim</nome_corrigido>
+        <concelho>Porto</concelho>
+        <taxa_turistica>3.00</taxa_turistica>
+    </registo>
+    <registo>
+        <nome_csv>Santa Marinha e São Pedro da Afurada</nome_csv>
+        <nome_corrigido>Santa Marinha</nome_corrigido>
+        <concelho>Vila Nova de Gaia</concelho>
+        <taxa_turistica>2.50</taxa_turistica>
+    </registo>
+    <registo>
+        <nome_csv>Lordelo do Ouro e Massarelos</nome_csv>
+        <nome_corrigido>Lordelo do Ouro</nome_corrigido>
+        <concelho>Porto</concelho>
+        <taxa_turistica>3.00</taxa_turistica>
+    </registo>
+    <registo>
+        <nome_csv>Paranhos</nome_csv>
+        <nome_corrigido>Paranhos</nome_corrigido>
+        <concelho>Porto</concelho>
+        <taxa_turistica>3.00</taxa_turistica>
+    </registo>
+    <registo>
+        <nome_csv>Matosinhos e Leça da Palmeira</nome_csv>
+        <nome_corrigido>Matosinhos Centro</nome_corrigido>
+        <concelho>Matosinhos</concelho>
+        <taxa_turistica>0.00</taxa_turistica>
+    </registo>
+    <registo>
+        <nome_csv>Mafamude e Vilar do Paraíso</nome_csv>
+        <nome_corrigido>Mafamude</nome_corrigido>
+        <concelho>Vila Nova de Gaia</concelho>
+        <taxa_turistica>2.50</taxa_turistica>
+    </registo>
+    <registo>
+        <nome_csv>Aldoar, Foz do Douro e Nevogilde</nome_csv>
+        <nome_corrigido>Foz do Douro</nome_corrigido>
+        <concelho>Porto</concelho>
+        <taxa_turistica>3.00</taxa_turistica>
+    </registo>
+    <registo>
+        <nome_csv>Campanhã</nome_csv>
+        <nome_corrigido>Campanhã</nome_corrigido>
+        <concelho>Porto</concelho>
+        <taxa_turistica>3.00</taxa_turistica>
+    </registo>
+    <registo>
+        <nome_csv>Póvoa de Varzim, Beiriz e Argivai</nome_csv>
+        <nome_corrigido>Póvoa de Varzim</nome_corrigido>
+        <concelho>Póvoa de Varzim</concelho>
+        <taxa_turistica>1.50</taxa_turistica>
+    </registo>
+    <registo>
+        <nome_csv>Vila do Conde</nome_csv>
+        <nome_corrigido>Vila do Conde</nome_corrigido>
+        <concelho>Vila do Conde</concelho>
+        <taxa_turistica>0.00</taxa_turistica>
+    </registo>
+    <registo>
+        <nome_csv>Canidelo</nome_csv>
+        <nome_corrigido>Canidelo</nome_corrigido>
+        <concelho>Vila Nova de Gaia</concelho>
+        <taxa_turistica>2.50</taxa_turistica>
+    </registo>
+    <registo>
+        <nome_csv>Ramalde</nome_csv>
+        <nome_corrigido>Ramalde</nome_corrigido>
+        <concelho>Porto</concelho>
+        <taxa_turistica>3.00</taxa_turistica>
+    </registo>
+</tabela_regras>

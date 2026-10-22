@@ -1,0 +1,372 @@
+[
+    {
+        "id": "8d4205de0d327950",
+        "type": "tab",
+        "label": "Flow 1",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "ff509979d009b109",
+        "type": "inject",
+        "z": "8d4205de0d327950",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{}",
+        "payloadType": "json",
+        "x": 630,
+        "y": 480,
+        "wires": [
+            [
+                "6c34d7729628359a",
+                "96dbc70f690464e2"
+            ]
+        ]
+    },
+    {
+        "id": "6c34d7729628359a",
+        "type": "mongodb4",
+        "z": "8d4205de0d327950",
+        "clientNode": "a5e8847bb921015c",
+        "mode": "collection",
+        "collection": "alojamentos",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 890,
+        "y": 340,
+        "wires": [
+            [
+                "cb4955fac46d5b3b",
+                "32c02f209a58d220"
+            ]
+        ]
+    },
+    {
+        "id": "cb4955fac46d5b3b",
+        "type": "function",
+        "z": "8d4205de0d327950",
+        "name": "function 1",
+        "func": "let pontos = [];\nlet lista = Array.isArray(msg.payload) ? msg.payload : [msg.payload];\nlet contagem = {}; \n\nlista.forEach(item => {\n    let freguesia = item.nome_corrigido;\n\n    if (!contagem[freguesia]) {\n        contagem[freguesia] = 0;\n    }\n\n    if (contagem[freguesia] < 10 && item.latitude && item.longitude) {\n        pontos.push({\n            name: String(item.id) + \" - \" + item.name,\n            lat: Number(item.latitude),\n            lon: Number(item.longitude),\n            icon: \"bed\",\n            iconColor: \"blue\",\n            \"Preço\": item.price + \" €\",\n            \"Tipo de Aloj.\": item.room_type,\n            \"Freguesia\": freguesia\n        });\n        \n        contagem[freguesia]++; \n    }\n});\n\nmsg.payload = pontos;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 380,
+        "wires": [
+            [
+                "bdabaa8b6044655b"
+            ]
+        ]
+    },
+    {
+        "id": "bdabaa8b6044655b",
+        "type": "worldmap",
+        "z": "8d4205de0d327950",
+        "name": "",
+        "lat": "38.72",
+        "lon": "-9.14",
+        "zoom": "13",
+        "layer": "OSMG",
+        "cluster": "",
+        "maxage": "",
+        "usermenu": "show",
+        "layers": "show",
+        "panit": "false",
+        "panlock": "false",
+        "zoomlock": "false",
+        "hiderightclick": "false",
+        "coords": "none",
+        "showgrid": "false",
+        "showruler": "false",
+        "allowFileDrop": "false",
+        "path": "/worldmap",
+        "overlist": "DR,CO,RA,DN",
+        "maplist": "OSMG,OSMC,EsriC,EsriS,UKOS",
+        "mapname": "",
+        "mapurl": "",
+        "mapopt": "",
+        "mapwms": false,
+        "x": 1320,
+        "y": 500,
+        "wires": []
+    },
+    {
+        "id": "32c02f209a58d220",
+        "type": "debug",
+        "z": "8d4205de0d327950",
+        "name": "debug 1",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 440,
+        "wires": []
+    },
+    {
+        "id": "96dbc70f690464e2",
+        "type": "mongodb4",
+        "z": "8d4205de0d327950",
+        "clientNode": "a5e8847bb921015c",
+        "mode": "collection",
+        "collection": "freguesias",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 890,
+        "y": 580,
+        "wires": [
+            [
+                "96eae7933a779392",
+                "797d19788507f908"
+            ]
+        ]
+    },
+    {
+        "id": "96eae7933a779392",
+        "type": "function",
+        "z": "8d4205de0d327950",
+        "name": "function 2",
+        "func": "let zonas = [];\nmsg.payload.forEach(item => {\n    if (item[\"Mean(latitude)\"] && item[\"Mean(longitude)\"]) {\n        zonas.push({\n            name: item.nome_corrigido,\n            lat: Number(item[\"Mean(latitude)\"]),\n            lon: Number(item[\"Mean(longitude)\"]),\n            icon: \"sun-o\",\n            iconColor: \"orange\",\n            \"Clima\": item.clima_desc,\n            \"Temperatura\": item.temp_c + \" ºC\",\n            \"Humidade\": item.humidade + \"%\",\n            \"Classificação\": item.classificacao_zona\n        });\n    }\n});\nmsg.payload = zonas;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1060,
+        "y": 620,
+        "wires": [
+            [
+                "bdabaa8b6044655b"
+            ]
+        ]
+    },
+    {
+        "id": "797d19788507f908",
+        "type": "debug",
+        "z": "8d4205de0d327950",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1060,
+        "y": 680,
+        "wires": []
+    },
+    {
+        "id": "67597879df71e949",
+        "type": "inject",
+        "z": "8d4205de0d327950",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "3600",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "{}",
+        "payloadType": "json",
+        "x": 430,
+        "y": 360,
+        "wires": [
+            [
+                "2b3ae186d1c3f5cf"
+            ]
+        ]
+    },
+    {
+        "id": "5a58cd5c915c7784",
+        "type": "http request",
+        "z": "8d4205de0d327950",
+        "name": "",
+        "method": "GET",
+        "ret": "obj",
+        "paytoqs": "ignore",
+        "url": "",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "",
+        "senderr": false,
+        "headers": [],
+        "x": 1110,
+        "y": 260,
+        "wires": [
+            [
+                "bb116787f0449957"
+            ]
+        ]
+    },
+    {
+        "id": "6949bb4a2ca3856f",
+        "type": "split",
+        "z": "8d4205de0d327950",
+        "name": "",
+        "splt": "\\n",
+        "spltType": "str",
+        "arraySplt": 1,
+        "arraySpltType": "len",
+        "stream": false,
+        "addname": "",
+        "property": "payload",
+        "x": 750,
+        "y": 260,
+        "wires": [
+            [
+                "55ca27fca24350ae"
+            ]
+        ]
+    },
+    {
+        "id": "55ca27fca24350ae",
+        "type": "function",
+        "z": "8d4205de0d327950",
+        "name": "function 3",
+        "func": "msg.freguesia = msg.payload; \nlet lat = msg.payload[\"Mean(latitude)\"];\nlet lon = msg.payload[\"Mean(longitude)\"];\n\nmsg.url = \"https://api.openweathermap.org/data/2.5/weather?lat=\" + lat + \"&lon=\" + lon + \"&units=metric&lang=pt&appid=47e50ad6bd7a23221fd48260c991fa5e\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 180,
+        "wires": [
+            [
+                "5a58cd5c915c7784"
+            ]
+        ]
+    },
+    {
+        "id": "2b3ae186d1c3f5cf",
+        "type": "mongodb4",
+        "z": "8d4205de0d327950",
+        "clientNode": "a5e8847bb921015c",
+        "mode": "collection",
+        "collection": "freguesias",
+        "operation": "find",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 590,
+        "y": 180,
+        "wires": [
+            [
+                "6949bb4a2ca3856f"
+            ]
+        ]
+    },
+    {
+        "id": "bb116787f0449957",
+        "type": "function",
+        "z": "8d4205de0d327950",
+        "name": "function 4",
+        "func": "let dados = msg.freguesia;\nlet temp = msg.payload.main.temp;\nlet rating = dados[\"Mean(review_scores_rating)\"];\nlet preco = dados[\"Mean(preco_noite)\"];\n\nlet classificacao = \"👍 Zona Tranquila\"; \n\nif (rating >= 4.7 && preco <= 120) {\n    classificacao = \"⭐ Escolha Ideal\";\n} else if (temp >= 17 && preco <= 130) {\n    classificacao = \"☀️ Recomendado para Passeio & Bom Preço\";\n} else if (preco > 150) {\n    classificacao = \"💎 Zona Premium\";\n}\n\nmsg.payload = [\n    { _id: dados._id }, \n    {\n        $set: {\n            temp_c: temp,\n            classificacao_zona: classificacao\n        }\n    }\n];\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1300,
+        "y": 180,
+        "wires": [
+            [
+                "72ea67ed5e06ee1a"
+            ]
+        ]
+    },
+    {
+        "id": "72ea67ed5e06ee1a",
+        "type": "mongodb4",
+        "z": "8d4205de0d327950",
+        "clientNode": "a5e8847bb921015c",
+        "mode": "collection",
+        "collection": "freguesias",
+        "operation": "updateOne",
+        "output": "toArray",
+        "maxTimeMS": "0",
+        "handleDocId": false,
+        "name": "",
+        "x": 1490,
+        "y": 340,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "a5e8847bb921015c",
+        "type": "mongodb4-client",
+        "name": "isi_alojamento",
+        "protocol": "mongodb",
+        "hostname": "",
+        "port": "",
+        "dbName": "isi_alojamento",
+        "appName": "",
+        "authSource": "",
+        "authMechanism": "DEFAULT",
+        "tls": false,
+        "tlsCAFile": "",
+        "tlsCertificateKeyFile": "",
+        "tlsInsecure": false,
+        "connectTimeoutMS": "30000",
+        "socketTimeoutMS": "0",
+        "minPoolSize": "0",
+        "maxPoolSize": "100",
+        "maxIdleTimeMS": "0",
+        "uri": "mongodb+srv://fabix123ferreira_db_user:kOuLHiojIBhDPNLq@cluster0.c3kyqwm.mongodb.net/",
+        "advanced": "{}",
+        "uriTabActive": "tab-uri-advanced"
+    },
+    {
+        "id": "760a4d20a13a5939",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-contrib-mongodb4": "3.4.0",
+            "node-red-contrib-web-worldmap": "5.9.1"
+        }
+    }
+]
